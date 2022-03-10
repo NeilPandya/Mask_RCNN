@@ -7,7 +7,7 @@ RUN git clone https://github.com/NeilPandya/Mask_RCNN.git
 RUN cd /Mask_RCNN
 COPY mask_rcnn_coco.h5 /Mask_RCNN
 
-RUN pip install --upgrade pip -y
+RUN pip install --upgrade pip
 RUN pip uninstall networkx decorator idna -y
 RUN pip install -r /Mask_RCNN/requirements.txt
 
