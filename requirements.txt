@@ -8,6 +8,7 @@ cython
 matplotlib
 scikit-image==0.16.2
 keras==2.2.5
+tensorflow-gpu==1.15.0
 opencv-python
 h5py==2.10.0
 imgaug
