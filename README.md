@@ -1,6 +1,6 @@
 # Mask R-CNN for Object Detection and Segmentation
 
-This is my (Neil Pandya) personal fork of Mask R-CNN to experiment with image segmentation, and train the model with multiple classes. I also created a demo that runs inference in real-time. Check the "samples" folder for implementations with multiple classes with images from the [ISIC Archive](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main) and other examples.
+This is my personal fork of Mask R-CNN to experiment with image segmentation, and train the model with multiple classes. I also created a demo that runs inference in real-time. Check the "samples" folder for implementations with multiple classes with images from the [ISIC Archive](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main) and other examples.
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
