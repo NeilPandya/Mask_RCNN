@@ -1,7 +1,7 @@
 idna==2.8.*
 decorator==4.*
 networkx==2.5.1
-numpy==1.20.0
+numpy==1.22.3
 scipy
 Pillow
 cython
