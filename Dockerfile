@@ -1,4 +1,5 @@
 FROM tensorflow/tensorflow:1.15.0-gpu-py3
+RUN apt-get update
 RUN apt-get install apt-utils -y
 RUN apt-get install nano git ffmpeg libsm6 libxext6 -y
 RUN apt-get update
