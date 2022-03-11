@@ -1,5 +1,5 @@
 FROM tensorflow/tensorflow:1.15.0-gpu-py3
-RUN apt-get install apt-utils 
+RUN apt-get install apt-utils -y
 RUN apt-get install nano git ffmpeg libsm6 libxext6 -y
 RUN apt-get update
 RUN git clone https://github.com/NeilPandya/Mask_RCNN.git
