@@ -12,9 +12,14 @@ RUN pip install --upgrade pip
 RUN pip uninstall networkx decorator idna -y
 RUN pip install -r /Mask_RCNN/requirements.txt
 RUN ./getDatasets.sh
+RUN ./getCOCOweights.sh
 
 RUN apt update
 RUN chmod 777 -R /Mask_RCNN
 
 EXPOSE 8888/tcp
 EXPOSE 6006/tcp
+EXPOSE 6007/tcp
+EXPOSE 6008/TCP
+EXPOSE 6009/TCP
+EXPOSE 6010/TCP
