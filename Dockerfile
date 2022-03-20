@@ -11,6 +11,7 @@ COPY mask_rcnn_coco.h5 /Mask_RCNN
 RUN pip install --upgrade pip
 RUN pip uninstall networkx decorator idna -y
 RUN pip install -r /Mask_RCNN/requirements.txt
+RUN ./getDatasets.sh
 
 RUN apt update
 RUN chmod 777 -R /Mask_RCNN
